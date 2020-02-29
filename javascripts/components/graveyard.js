@@ -8,18 +8,17 @@ const buildGraveyard = () => {
     domString +=       `<div class="card-header bg-danger">Shark Food :(</div>`;
     domString +=       `<ul class="list-group list-group-flush">`;
     
-    
-    
-    
     persons.forEach((person) =>{
-        domString += `<li class="list-group-item">${person.name}</li>`
+        domString += `<li class="list-group-item">
+                ${person.name}
+                <button id="${person.id}" class="btn btn-secondary revive-btn">Revive!</button>
+            </li>`
     });
     
+
     domString +=       `</ul>`
-    domString +=       `</div>`
     
-    
-        utils.printToDom('graveyard', domString);
+    utils.printToDom('graveyard', domString);
     }
     
     export default { buildGraveyard }

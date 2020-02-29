@@ -47,5 +47,9 @@ const persons = [
       console.log("a random murder!")
   }
 
+  const bringToLife = ()=> {
+    console.log("inside your bring to life")
+  }
 
-  export default { getAlivePersons, getDeadPersons, randomMurder }
+
+  export default { getAlivePersons, getDeadPersons, randomMurder, bringToLife }
