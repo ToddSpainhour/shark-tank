@@ -10,8 +10,6 @@ domString +=       `<div class="card-header bg-success">Still Alive!</div>`;
 domString +=       `<ul class="list-group list-group-flush">`;
 
 
-
-
 persons.forEach((persons) =>{
     domString += `<li class="list-group-item">${persons.name}</li>`
 });
