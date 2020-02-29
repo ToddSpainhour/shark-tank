@@ -1,2 +1,8 @@
-console.log("Your JS is connected!")
 
+import tank from "../javascripts/components/tank.js"
+
+const init = () => {
+    tank.tankBuilder();
+};
+
+init();
