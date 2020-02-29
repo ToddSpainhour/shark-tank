@@ -6,11 +6,9 @@ const tankBuilder = () => {
 const persons = personData.getAlivePersons();
 let domString = "";
 domString +=       `<div class="card">`;
-domString +=       `<div class="card-header">Featured</div>`;
+domString +=       `<div class="card-header bg-success">Still Alive!</div>`;
 domString +=       `<ul class="list-group list-group-flush">`;
-domString +=       `<li class="list-group-item">Cras justo odio</li>`;
-domString +=       `<li class="list-group-item">Dapibus ac facilisis in</li>`;
-domString +=       `<li class="list-group-item">Vestibulum at eros</li>`;
+
 
 
 
